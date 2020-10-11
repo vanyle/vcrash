@@ -1,6 +1,6 @@
 # VCrash
 
-VCrash is a C++/C library used to display stack traces on Windows with MinGW64.
+VCrash is a C++/C library used to display stack traces on Windows with Mingw64.
 
 VCrash is header only but requires to be linked with the `dbghelp` library that is available by default on window (use the `-ldbghelp` option when linking). Also, to access to the name of the functions and their line count in the stack trace, you will need to generate a `pdb` file from the executable. To to this, use the `cv2pdb` executable of the repo or download it somewhere with `cv2pdb program.exe`
 
